@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theoneandonlyzako/just-tech-news.git"
+    "url": "git+https://github.com/theoneandonlyzako/Blog-This"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theoneandonlyzako/just-tech-news/issues"
+    "url": "https://github.com/theoneandonlyzako/Blog-This/issues"
   },
-  "homepage": "https://github.com/theoneandonlyzako/just-tech-news#readme",
+  "homepage": "https://github.com/theoneandonlyzako/Blog-This#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.1",
