@@ -2,15 +2,15 @@
 
 ## Links
 
-  Repo Link: https://github.com/theoneandonlyzako/retail-back-end
+  Repo Link: https://github.com/theoneandonlyzako/Blog-This
   <br/>
-  Demo Video Link: https://youtu.be/J1E1TSqqFPw
+  Direct Link: https://blog-this-tech-blog.herokuapp.com/
   <br/><br/>
   [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 
   # Description
-This is an Express.js, Sequelized and MySQL back-end based application for an e-commerce website.</br>
+This is an Express.js, Sequelized and MySQL based application with account login capabilities to create your own post on anything tech, user can also comment on other posts.</br>
   
 
   # Table of Contents 
@@ -23,10 +23,10 @@ This is an Express.js, Sequelized and MySQL back-end based application for an e-
   
  
   # Installation
-  The following must be installed or linked in order to run the application properly: "dotenv", "express", "mysql2", "sequelize".
+  The following must be installed or linked in order to run the application properly: "bcrypt", "dotenv", "express", "express-handlebars", "express-session", "mysql2", "sequelize".
   
   # Usage
-  ​online ecommerce back-end 
+  ​Users can Read, create, update and delete posts on anything tech and comment on other posts created by other users.
  
   # License
   This project is licensed under the Unlicense license.
@@ -37,34 +37,23 @@ This is an Express.js, Sequelized and MySQL back-end based application for an e-
   # Steps
   **Installation** <br/>
 Download and clone the repository to your machine;<br/>
-npm init;<br/>
-npm i express;<br/>
-npm install dotenv;<br/>
-npm install mysql2;<br/>
-npm install sequelize;<br/>
-CREATE DATABASE ecommerce_db;<br/>
-USE ecommerce_db;<br/>
-Seed the data to your database by running "npm run seed" in your terminal<br/>
+npm install <br/>
+CREATE DATABASE blog_this_db<br/>
+USE blog_this_db<br/>
 Run "npm start" to begin the appication<br/></br>
 
-**After you run this app, you'll be able to:**<br/>
-Read, create, update and delete data from the Products, Categories, and Tags tables
+**After you run this app:**<br/>
+open <i>http://localhost:3001/</i> in your browser
 
   <br/></br>
+  
   # Contact
   If you have any questions about the repo, open an issue or contact me directly at theoneandonlyzako@gmail.com or visit my website at zakstamps.com
     <br/><br/>
-  ### Demo Video Link: https://youtu.be/J1E1TSqqFPw
+
+  <!-- ### Demo Video Link: https://youtu.be/J1E1TSqqFPw -->
  
   <br/></br>
-  **Get All**
-  ![img](assets/getAll.gif)
-  <br/></br>
-  **Get One**
-  ![img](assets/getOne.gif)
-  <br/></br>
-  **Update**
-  ![img](assets/Update.gif)
-   <br/></br>
-  **Delete**
-  ![img](assets/Delete.gif)
+
+  ![img](./site.png)
+ 
