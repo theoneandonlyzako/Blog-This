@@ -121,8 +121,7 @@ form label {
 .wrapper {
   width: 100%;
   min-height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -429,15 +428,17 @@ footer {
   background-color: var(--header-color);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 833px) {
+
   header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 0 4%;
   }
+
   h1 {
     display: flex;
     flex-direction: row;
@@ -446,7 +447,15 @@ footer {
     align-items: center;
     padding: 0 4%;
   }
+
   nav {
     margin-bottom: 10px;
+  }
+
+  .signup {
+    
+    margin: 20px;
+    padding: 20px;
+    max-width: 90%;
   }
 }
