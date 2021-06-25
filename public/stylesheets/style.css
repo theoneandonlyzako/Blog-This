@@ -67,7 +67,8 @@ a:hover {
 button {
   background-color: var(--button-primary);
   border: 0;
-  padding: 1%;
+  padding: 5;
+  margin: 4px;
   color: var(--second-color);
   font-weight: bold;
   transition: background-color 0.2s;
