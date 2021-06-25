@@ -326,13 +326,6 @@ li::marker {
 
 }
 
-.post .title span {
-  color: violet;
-  font-style: italic;
-  font-size: 5em;
-  width: auto;
-}
-
 span {
   color: var(--text-color);
   font-style: italic;
@@ -341,7 +334,6 @@ span {
 }
 
 .title {
-  color: #39a2db;
   background-color: rgb(44, 44, 44);
   border-bottom: 2px solid black;
   padding: 7px;
