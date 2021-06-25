@@ -9,9 +9,9 @@
   --hover-color: #f7f7f7;
   --header-color: rgb(39, 39, 39);
   --button-primary: #0275d8;
-  --button-hover: #151df9;
-  --button-delete: #f0ad4e;
-  --button-delete-hover: #d9534f;
+  --button-hover: #3b41ec;
+  --button-delete: #d9534f;
+  --button-delete-hover: #c30b05;
   --info: #5bc0de;
   --success: #5cb85c;
 
@@ -68,9 +68,9 @@ button {
   background-color: var(--button-primary);
   border: 0;
   padding: 1%;
-  color: white;
+  color: var(--second-color);
   font-weight: bold;
-  transition: background-color 0.1s;
+  transition: background-color 0.2s;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -78,6 +78,10 @@ button {
 button:hover {
   cursor: pointer;
   background-color: var(--button-hover);
+}
+
+h2 {
+  color: var(--text-color);
 }
 
 .post-list {
@@ -143,10 +147,15 @@ main {
   text-align: center;
 }
 
+.btn {
+  padding: 5;
+  margin: 4px;
+}
+
 .btn-no-style {
   background: none;
   border: none;
-  padding: 0;
+  padding: 1;
   cursor: pointer;
   text-decoration: none;
   color: var(--text-color);
@@ -162,12 +171,12 @@ main {
 }
 
 .delete-post-btn {
-  background-color: #d4143a;
+  background-color: var(--button-delete);
 }
 
 .delete-post-btn:hover {
   cursor: pointer;
-  background-color: #ff62ed;
+  background-color: var(--button-delete-hover);
 }
 /*---Login page CSS ---- */
 
@@ -381,10 +390,11 @@ a.edit-link:hover {
 }
 
 .comment:nth-child(odd) {
-  background-color: #054763;
+  background-color: var(--header-color);
 }
 
 .comment .meta {
+  color: var(--text-color);
   font-size: 90%;
   margin: 5px;
   padding: 25px;
@@ -393,6 +403,10 @@ a.edit-link:hover {
 .meta {
   margin: 5px;
   padding: 10px;
+}
+
+.text {
+  color: var(--text-color);
 }
 
 #post-title {
@@ -404,11 +418,6 @@ a.edit-link:hover {
   height: 100px;
   resize: none;
 }
-/* 
-#my-post-list {
-  align-items: center;
-  text-align: center;
-} */
 
 footer {
   color: var(--text-color);
