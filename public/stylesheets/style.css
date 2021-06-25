@@ -226,9 +226,15 @@ li::marker {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 7px;
+  /* padding: 7px; */
+}
+
+.post-ol {
+  margin: 0%;
+  padding: 0%;
 }
 
 #your-posts {
@@ -307,7 +313,17 @@ li::marker {
   background-color: var(--header-color);
   border: 3px solid black;
   text-align: center;
-  width: 90%;
+  width: 100%;
+}
+
+.posts-board {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
 .post .title span {
